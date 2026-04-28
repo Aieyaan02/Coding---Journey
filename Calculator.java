@@ -8,10 +8,9 @@ public class Calculator {
         int b = scan.nextInt();
         System.out.println("What operation would you like to perform : ");
         String perform = scan.next();
-
+        scan.close();
         if (perform.equals("+")){
             System.out.println(a + b);
-
         } else if (perform.equals("-")){
             System.out.println(a - b);
         } else if (perform.equals("*")){
@@ -20,10 +19,7 @@ public class Calculator {
             System.out.println(a / b);
         } else {
             System.out.println("invalid");
-        }
-        
-    
-       
+        }   
 
     }
     
