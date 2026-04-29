@@ -24,7 +24,7 @@ public class loops {
 
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        
+        sc.close();
         int sum = 0;
 
         for (int k = 0; k <= n; k++){
@@ -41,11 +41,6 @@ public class loops {
             System.out.println(y * a);
 
         }
-
-
-
-
-
 
     }
     
