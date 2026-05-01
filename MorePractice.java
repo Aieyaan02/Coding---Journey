@@ -21,7 +21,8 @@ public class MorePractice {
             System.out.println(a * b);
             break;
             case 4 :
-                if (b > a && b == 0){
+                if (b == 0){ // && 'AND' “ONLY run this if BOTH are true”
+                            // || 'OR' “Run this if AT LEAST ONE is true” 
                     System.out.println("Invalid");
                 } else {
             System.out.println(a / b);
@@ -32,9 +33,15 @@ public class MorePractice {
                 break;
         }
 
-
-
-
     }
     
 }
+
+/*/int x = 3;
+int y = 8;
+
+if (x > 5 || y > 5) {
+    System.out.println("Hello");
+}
+
+Answer: Hello (because y > 5 is true)/*/
