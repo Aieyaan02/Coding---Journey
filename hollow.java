@@ -8,7 +8,7 @@ public class hollow {
             //inner loop
             for (int j=1;j<=m;j++){
                 //cell -> (i,j)
-                if (i == 1 || j ==1 || i ==n || j==m){
+                if (i == 1 || j == 1 || i == n || j == m){
                     System.out.print("*");
                 } else { 
                     System.out.print(" ");
