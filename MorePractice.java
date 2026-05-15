@@ -45,3 +45,19 @@ if (x > 5 || y > 5) {
 }
 
 Answer: Hello (because y > 5 is true)/*/
+
+ public static void Main(String []args){
+    int r = 6;
+
+    for(int i = 1; i<=r; i++){
+        for(int j = 1; j<=i;j++){
+            System.out.print(" ");
+        }
+        for(int j= 1; j<= i; j++){
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+
+
+ } 

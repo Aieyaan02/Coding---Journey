@@ -8,11 +8,10 @@ public class rhombus {
                 System.out.print(" ");
             }
             //stars
-            for(int x = 1; x <= n; x++){
+            for (int x = 1; x <= n; x++){
                 System.out.print("* ");
             }
             System.out.println();
         }
-    }
-    
+    }   
 } 
