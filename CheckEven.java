@@ -14,7 +14,7 @@ import java.util.Scanner;
         System.out.println("Enter your number : ");
         int num = sc.nextInt();
         sc.close();
-        System.out.println("Your number is "+ check_even(num));
+        check_even(num);
 
 
     }
