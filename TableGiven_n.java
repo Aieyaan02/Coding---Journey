@@ -4,8 +4,9 @@ public class TableGiven_n {
         
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
-        
-
+        int sum = 2 + n;
+        System.out.println(sum);
+        scan.close();
 
 
     }
