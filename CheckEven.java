@@ -16,7 +16,6 @@ import java.util.Scanner;
         sc.close();
         check_even(num);
 
-
     }
     
 }
