@@ -7,7 +7,6 @@ public class InvertPyra180 {
             for(int j = 1; j <= row-i; j++){
                 System.out.print(" ");
             }
-            
             //inner loop -> star print
             for (int j =1; j<= i; j++){
                 System.out.print("*");
