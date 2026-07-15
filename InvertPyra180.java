@@ -16,3 +16,6 @@ public class InvertPyra180 {
     }
     
 }
+    static void pattern(int n){
+        
+    }
