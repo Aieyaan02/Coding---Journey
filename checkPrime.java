@@ -10,8 +10,7 @@ public class checkPrime {
 
 
 
-
-        
+       
             return n;                 
     }
 
