@@ -6,10 +6,7 @@ public class checkPrime {
            
             return n;  
                        
-
-
-
-            
+       
     }
 
     public static void main (String []args){
