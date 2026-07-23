@@ -7,6 +7,8 @@ public class Array {
        // marks[2] = 92;
 
 
+       
+
     }
     
 }
