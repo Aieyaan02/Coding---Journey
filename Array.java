@@ -3,7 +3,8 @@ public class Array {
         int[] marks = new int[3];
         marks[0] = 98;
         marks[1] = 95;
-        marks
+        marks[2] = 92;
+        
 
     }
     
