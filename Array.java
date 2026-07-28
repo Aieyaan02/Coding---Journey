@@ -8,7 +8,7 @@ public class Array {
        System.out.println(marks);
     }
     static void str(int a){
-        
+        int a = 12;
     }
     
 }
