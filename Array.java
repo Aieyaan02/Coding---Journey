@@ -7,5 +7,8 @@ public class Array {
        // marks[2] = 92;                    
        System.out.println(marks);
     }
+    static void str(int a){
+        
+    }
     
 }
