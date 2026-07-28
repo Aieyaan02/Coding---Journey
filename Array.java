@@ -6,6 +6,7 @@ public class Array {
        // marks[1] = 95;      
        // marks[2] = 92;                    
        System.out.println(marks);
+       
 
     }
     
