@@ -9,7 +9,7 @@ public class Array {
     }
     static void str(int a){
         int a = 12;
-        System.out.println();
+        System.out.println("");
     }
     
 }
