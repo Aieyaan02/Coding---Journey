@@ -6,10 +6,5 @@ public class Array {
        // marks[1] = 95;      
        // marks[2] = 92;                    
        System.out.println(marks);
-    }
-    static void str(int a){
-        int a = 12;
-        System.out.println("");
-    }
-    
+    } 
 }
