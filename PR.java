@@ -1,5 +1,38 @@
-//import java.util.Scanner;
-public class PR {
+import java.util.Scanner;
+    public static void main (String []args){
+        sumOdd();
+
+    }
+    static void sumOdd(){
+        Scanner scan = new Scanner (System.in);
+        int n = scan.nextInt();
+        scan.close();
+        for (int i = 0; i<=n ;i++){
+            if(i % 2 == 1){
+               int sum = i;
+               System.out.println(sum); 
+            }
+        }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/public class PR {
     public static void main (String[]args){
         average(2,5,6);
 
@@ -9,4 +42,6 @@ public class PR {
         System.out.println(math);
     }
     
-}
+} /*/
+
+
