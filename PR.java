@@ -12,6 +12,7 @@ public class PR {
         int b = scan.nextInt();
         System.out.println("Enter third number: ");
         int c = scan.nextInt();
+        scan.close();
 
     }
     
