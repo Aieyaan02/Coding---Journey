@@ -5,6 +5,7 @@ public class PR {
 
     }
     public static void function1(int n){
+        Scanner scan = new Scanner(System.in);
         
     }
     
