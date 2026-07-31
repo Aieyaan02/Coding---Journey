@@ -1,5 +1,26 @@
 import java.util.Scanner;
-    public static void main (String []args){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/     public static void main (String []args){
         sumOdd();
     }
     static void sumOdd(){
@@ -13,25 +34,7 @@ import java.util.Scanner;
             System.out.println(sum); 
             }
         }
-    }
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }/*/
 /*/public class PR {
     public static void main (String[]args){
         average(2,5,6);
