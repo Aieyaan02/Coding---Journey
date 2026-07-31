@@ -1,5 +1,24 @@
-//import java.util.Scanner;
-    public static void main (String []args){
+import java.util.Scanner;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/  public static void main (String []args){
         greater(4,6);
     }
     static void greater(int a,int b){
@@ -8,27 +27,7 @@
         } else {
             System.out.println(b);
         }
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    } /*/
 /*/     public static void main (String []args){
         sumOdd();
     }
