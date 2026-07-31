@@ -30,7 +30,7 @@ import java.util.Scanner;
         int sum = 0;
         for (int i = 0; i<=n ;i++){
             if(i % 2 == 1){
-                sum += i;
+                sum = sum + i;
             System.out.println(sum); 
             }
         }
