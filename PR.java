@@ -1,9 +1,11 @@
 import java.util.Scanner;
     public static void main (String []args){
 
-}
+    }
     static void greater(int n){
+        Scanner scan = new Scanner(System.in);
         
+
     }
 
 
