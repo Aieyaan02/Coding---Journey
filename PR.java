@@ -1,11 +1,19 @@
 import java.util.Scanner;
     public static void main (String []args){
+        greater(4);
 
     }
     static void greater(int n){
         Scanner scan = new Scanner(System.in);
-        
-
+        System.out.println("Enter 2 numbers : ");
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+        scan.close();
+        if (a>b){
+            System.out.println(a);
+        } else {
+            System.out.println(b);
+        }
     }
 
 
