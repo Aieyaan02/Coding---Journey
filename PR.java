@@ -1,9 +1,8 @@
 import java.util.Scanner;
     public static void main (String []args){
-        greater(4);
-
+        greater(4,6);
     }
-    static void greater(int n){
+    static void greater(int n,int c){
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter 2 numbers : ");
         int a = scan.nextInt();
