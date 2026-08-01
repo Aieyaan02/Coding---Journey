@@ -1,6 +1,21 @@
 import java.util.Scanner;
 
-    public static void main (String []args){
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/   public static void main (String []args){
         Scanner scan = new Scanner (System.in);
         double radius = scan.nextDouble();
         System.out.println(circumference(radius));   
@@ -8,26 +23,7 @@ import java.util.Scanner;
     }
     static Double circumference (Double radius){
         return 2 * Math.PI * radius;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    } /*/
 /*/  public static void main (String []args){
         greater(4,6);
     }
