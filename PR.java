@@ -1,12 +1,12 @@
 import java.util.Scanner;
-
     public static void main (String []args){
         Scanner scan = new Scanner (System.in);
-        double radius = scan.nextInt();
-        System.out.println(circumference(2.2));   
+        double radius = scan.nextDouble();
+        System.out.println(circumference(radius));   
+        
     }
     static Double circumference (Double radius){
-        return 2 * 3.2 * radius;
+        return 2 * Math.PI * radius;
     }
 
 
