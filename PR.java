@@ -3,7 +3,7 @@ import java.util.Scanner;
         Scanner scan = new Scanner (System.in);
         double radius = scan.nextDouble();
         System.out.println(circumference(radius));   
-        
+        scan.close();
     }
     static Double circumference (Double radius){
         return 2 * Math.PI * radius;
