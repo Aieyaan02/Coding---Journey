@@ -3,7 +3,7 @@ import java.util.Scanner;
         
     }
     static Double circumference (Double radius){
-        return;
+        return 2 * 3.2 * radius;
     }
 
 
