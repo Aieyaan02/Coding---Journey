@@ -1,10 +1,9 @@
 import java.util.Scanner;
+
     public static void main (String []args){
         Scanner scan = new Scanner (System.in);
-        
-
-
-        
+        double radius = scan.nextInt();
+        System.out.println(circumference(2.2));   
     }
     static Double circumference (Double radius){
         return 2 * 3.2 * radius;
