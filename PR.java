@@ -1,20 +1,24 @@
 import java.util.Scanner;
 
- 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/*/ public static void main (String []args){
+    age();
+}
+    static void age(){
+        Scanner scan = new Scanner (System.in);
+        System.out.println("Enter age : ");
+        int age = scan.nextInt();
+        scan.close();
+        if (age < 18){
+            int eligibleToVote = 18 - age;
+            System.out.println(" You are not allowed to vote yet try " + eligibleToVote + 
+            " years later ");
+        } else {
+            System.out.println("You are eligible to vote :) ");
+        }
+    } /*/
 /*/   public static void main (String []args){
         Scanner scan = new Scanner (System.in);
         double radius = scan.nextDouble();
