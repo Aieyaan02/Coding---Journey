@@ -3,6 +3,7 @@ import java.util.Scanner;
         
     }
     static void infiniteloop(){
+
         
     }
 
