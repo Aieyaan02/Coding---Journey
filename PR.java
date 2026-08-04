@@ -4,13 +4,6 @@ import java.util.Scanner;
     }
     static void infiniteloop(){
 
-
-
-
-
-
-        
-
     }
 
 /*/ public static void main (String[]args){
