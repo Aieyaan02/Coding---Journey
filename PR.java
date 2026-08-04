@@ -3,7 +3,7 @@ import java.util.Scanner;
       
     }
     static void infiniteloop(){
-        
+        Scanner scan = new Scanner(System.in);
         
     }
 
