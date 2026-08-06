@@ -2,6 +2,11 @@ import java.util.Scanner;
     public static void main(String[]args){
     }
     static void infiniteloop(){
+        
+        while(i < 0){
+            for(int i = 1)
+            System.out.println();
+        }
         Scanner scan = new Scanner(System.in);
         scan.close();        
     }
