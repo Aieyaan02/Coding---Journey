@@ -6,9 +6,7 @@ import java.util.Scanner;
         Scanner scan = new Scanner(System.in);       
         scan.close();   
         System.out.println();   
-        System.out.println();    
-        
-        
+   
     }
 /*/ public static void main (String[]args){
     age();
