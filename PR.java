@@ -8,7 +8,6 @@ import java.util.Scanner;
         System.out.println();  
         System.out.println();
         System.out.println();
-        System.out.println();
         
         
     }
