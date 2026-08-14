@@ -7,7 +7,6 @@ import java.util.Scanner;
         scan.close();         
         System.out.println();  
         System.out.println();
-        System.out.println();
         
         
     }
