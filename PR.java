@@ -4,8 +4,7 @@ import java.util.Scanner;
     static void infiniteloop(){   
         System.out.println();
         Scanner scan = new Scanner(System.in);       
-        scan.close();    
-        System.out.println();           
+        scan.close();               
     }
 /*/ public static void main (String[]args){
     age();
