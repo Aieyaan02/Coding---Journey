@@ -7,6 +7,5 @@ public class Array {
        // marks[2] = 92;                    
        System.out.println();
        System.out.println();
-       System.out.println();
     } 
 }
