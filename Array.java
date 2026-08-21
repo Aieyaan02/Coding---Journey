@@ -22,5 +22,6 @@ static void names(){
     Scanner scan = new Scanner(System.in);
     System.out.println();
     System.out.println();
+    System.out.println();
 
 }
