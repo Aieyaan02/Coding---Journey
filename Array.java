@@ -9,7 +9,6 @@ public class Array {
             number[i]= scan.nextInt();
         }
         int x = scan.nextInt();
-
         //output
         for (int i = 0; i<number.length;i++){
             if (number[i]==x){
@@ -17,4 +16,10 @@ public class Array {
             }
         }
     } 
+}
+
+static void names(){
+    Scanner scan = new Scanner(System.in);
+    System.out.println();
+
 }
