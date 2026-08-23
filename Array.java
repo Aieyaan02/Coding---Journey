@@ -9,6 +9,7 @@ public class Array {
             name[i] = scan.next();
             scan.close();  
             System.out.println();
+            System.out.println();
         }
         for(int i = 0; i < size;i++){
             System.out.println(name[i]);
