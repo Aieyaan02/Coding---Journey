@@ -11,7 +11,6 @@ public class Array {
             System.out.println();
             System.out.println();
             System.out.println();
-            sun.tools.jar.resources
         }
         for(int i = 0; i < size;i++){
             System.out.println(name[i]);
