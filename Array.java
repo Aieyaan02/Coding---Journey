@@ -42,6 +42,7 @@ public class Array {
         System.out.println("Minimum value: " + min);
         System.out.println("Maximum value: " + max);
         System.out.println();
+        System.out.println();
 
         scan.close();
             
