@@ -41,6 +41,7 @@ public class Array {
                 max = numbers[i];
         System.out.println("Minimum value: " + min);
         System.out.println("Maximum value: " + max);
+        System.out.println();
 
         scan.close();
             
