@@ -1,12 +1,18 @@
 import java.util.Scanner;
     public static void main(String[]args){
+    
     }
-    static void infiniteloop(){   
-        System.out.println();
-        Scanner scan = new Scanner(System.in);       
-        scan.close();    
-        System.out.println();       
-    }
+
+
+
+
+
+
+   /*/ static void infiniteloop(){   
+        while(1==1){ // condition can't be updated in loop so it'll run infinite loop
+            System.out.println("HELP!!");
+        }     
+    } /*/
 /*/ public static void main (String[]args){
     age();
 }
