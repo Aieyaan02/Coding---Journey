@@ -4,7 +4,6 @@ public class Array {
     public static void main(String[] args) { 
         MaxMin(); 
     } 
-
     public static void function1() { 
         Scanner scan = new Scanner(System.in); 
         System.out.println("Enter size of array: "); 
@@ -53,6 +52,8 @@ public class Array {
 
         // Fix 3: Close scanner outside the loop
         scan.close(); 
+        System.out.println();
+
     } 
 }
 
