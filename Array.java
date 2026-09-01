@@ -50,6 +50,5 @@ public class Array {
         scan.close(); 
         System.out.println();
         System.out.println();
-        System.out.println();
     } 
 }
