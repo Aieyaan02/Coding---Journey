@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Array { 
     public static void main(String[] args) { 
         MaxMin(); 
@@ -21,7 +20,6 @@ public class Array {
         } 
         scan.close(); 
     } 
-
     static void MaxMin(){ 
         Scanner scan = new Scanner(System.in); 
         System.out.println("Enter size of Array : " ); 
@@ -32,7 +30,6 @@ public class Array {
         for (int i = 0; i < size; i++){ 
             numbers[i] = scan.nextInt(); 
         } 
-
         // Fix 1: Invert the starting logic or use the first element of the array
         int max = Integer.MIN_VALUE; 
         int min = Integer.MAX_VALUE; 
@@ -45,13 +42,12 @@ public class Array {
                 max = numbers[i]; 
             } 
         } 
-        
         // Fix 2: Print the results
         System.out.println("Minimum value: " + min);
         System.out.println("Maximum value: " + max);
 
         // Fix 3: Close scanner outside the loop
         scan.close(); 
+        System.out.println();
     } 
 }
-
