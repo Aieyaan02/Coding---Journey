@@ -51,7 +51,6 @@ public class Array {
         System.out.println();
         System.out.println();
         System.out.println();
-        System.out.println();
         
     } 
 }
