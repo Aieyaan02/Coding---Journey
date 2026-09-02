@@ -49,5 +49,6 @@ public class Array {
         // Fix 3: Close scanner outside the loop
         scan.close(); 
         System.out.println();
+        System.out.println();
     } 
 }
