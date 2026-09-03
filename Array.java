@@ -8,19 +8,18 @@ public class Array {
         System.out.println("Enter size of array: "); 
         int size = scan.nextInt(); 
         String[] name = new String[size]; 
-        
+
         for (int i = 0; i < size; i++) { 
             System.out.println("Enter name for index " + i + ":"); 
             name[i] = scan.next(); 
         } 
-        
         System.out.println("Array contents:"); 
         for (int i = 0; i < size; i++) { 
             System.out.println(name[i]); 
         } 
         scan.close(); 
     } 
-    static void MaxMin(){ 
+    static void MaxMin() { 
         Scanner scan = new Scanner(System.in); 
         System.out.println("Enter size of Array : " ); 
         int size = scan.nextInt(); 
@@ -45,11 +44,8 @@ public class Array {
         // Fix 2: Print the results
         System.out.println("Minimum value: " + min);
         System.out.println("Maximum value: " + max);
-
         // Fix 3: Close scanner outside the loop
         scan.close(); 
-        System.out.println();
-        System.out.println();
         System.out.println();
     } 
 }
