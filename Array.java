@@ -1,9 +1,10 @@
 import java.util.Scanner;
 public class Array { 
     public static void main(String[] args) { 
+        Function();
         MaxMin(); 
     } 
-    public static void function1() { 
+    public static void Function() { 
         Scanner scan = new Scanner(System.in); 
         System.out.println("Enter size of array: "); 
         int size = scan.nextInt(); 
