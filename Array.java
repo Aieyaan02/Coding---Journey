@@ -35,7 +35,7 @@ public class Array {
         int min = Integer.MAX_VALUE; 
 
         for(int i = 0; i < numbers.length; i++){ 
-            if(numbers[i] < min){ 
+            if(numbers[i ] < min){ 
                 min = numbers[i]; 
             } 
             if(numbers[i] > max){ 
@@ -47,7 +47,6 @@ public class Array {
         System.out.println("Maximum value: " + max);
         // Fix 3: Close scanner outside the loop
         scan.close(); 
-        System.out.println();
         System.out.println();
     } 
 }
