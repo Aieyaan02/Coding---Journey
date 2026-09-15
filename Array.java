@@ -46,8 +46,6 @@ public class Array {
         System.out.println("Minimum value: " + min);
         System.out.println("Maximum value: " + max);
         // Fix 3: Close scanner outside the loop
-        scan.close();     
-        System.out.println();
-        System.out.println();  
+        scan.close();       
     } 
 }
