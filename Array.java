@@ -47,6 +47,6 @@ public class Array {
         System.out.println("Maximum value: " + max);
         // Fix 3: Close scanner outside the loop
         scan.close();     
-        sun.tools.jar.resources
+        System.out.println();
     } 
 }
